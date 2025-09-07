@@ -3,7 +3,7 @@
 #
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (Mod29_HW "Mod29_HW.cpp" "Mod29_HW.h")
+add_executable (Mod29_HW "Mod29_HW.cpp" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Mod29_HW PROPERTY CXX_STANDARD 20)
